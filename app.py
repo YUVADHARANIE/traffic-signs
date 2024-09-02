@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load the model
-model = load_model('model.h5')
+model = load_model('my_model.h5')
 
 # List of all labels
 all_labels = ['Speed limit (20km/h)','Speed limit (30km/h)','Speed limit (50km/h)','Speed limit (60km/h)',
